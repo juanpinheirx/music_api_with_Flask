@@ -1,0 +1,51 @@
+use('db_music');
+db.musics.insertMany([
+    {
+        name: 'Tornado Warnings',
+        artist: 'Sabrina Carpenter',
+        album: 'emails i cant send',
+        release_year: 2023,
+        genre: 'Pop',
+        image: 'images/sabrina-carpenter.jpeg',
+    },
+    {
+        name: 'Smart',
+        artist: 'LE SSERAFIM',
+        album: 'EASY',
+        release_year: 2024,
+        genre: 'Korean Pop',
+        image: 'images/le-sserafim.jpeg',
+    },
+    {
+        name: 'Sweet Child O Mine',
+        artist: 'Guns n Roses',
+        album: 'Appetite For Destruction',
+        release_year: 1987,
+        genre: 'Rock',
+        image: 'images/guns-n-roses.jpeg',
+    },
+    {
+        name: 'Negro Drama',
+        artist: 'Racionais MCs',
+        album: 'Nada como um dia após um outro dia',
+        release_year: 2002,
+        genre: 'Rap',
+        image: 'images/racionais-mcs.jpeg',
+    },
+    {
+        name: 'Mine Mine Mine',
+        artist: 'Wind Rose',
+        album: 'Wintersaga',
+        release_year: 2019,
+        genre: 'Metal',
+        image: 'images/wind-rose.jpg',
+    },
+    {
+        name: 'Could You Be Loved',
+        artist: 'Bob Marley',
+        album: 'Uprising',
+        release_year: 1980,
+        genre: 'Reggae',
+        image: 'images/bob-marley.jpeg',
+    },
+])
